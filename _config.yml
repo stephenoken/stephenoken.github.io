@@ -19,6 +19,3 @@ github_username:  stephenoken
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jekyll-time-to-read

@@ -130,9 +130,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 77)
+  github-pages
   jekyll-time-to-read
-  json
   kramdown
 
 BUNDLED WITH
