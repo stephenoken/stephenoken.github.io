@@ -19,8 +19,11 @@
   background: #eaeaea;
 }
 
+.primary-colour{
+  color: $primary-colour !important;
+}
 .sub-title{
-  color: $primary-colour;
+  @extend .primary-colour;
   text-align: center;
 }
 
@@ -44,10 +47,14 @@
     margin-bottom: 10px;
     width: 100%;
 
-    .education-image{
+    .image {
       width: 60px;
       margin-right: 10px;
       height: 50px;
+    }
+    .education-image{
+      @extend .image;
+      float: left;
     }
 
     .years{
