@@ -133,6 +133,7 @@ DEPENDENCIES
   github-pages (= 77)
   jekyll-time-to-read
   json
+  kramdown
 
 BUNDLED WITH
    1.10.6
