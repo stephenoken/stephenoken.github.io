@@ -17,6 +17,5 @@ github_username:  stephenoken
 
 # Build settings
 markdown: kramdown
-
 gem:
   - jekyll-sitemap
