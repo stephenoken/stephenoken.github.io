@@ -9,13 +9,14 @@
 title: Stephen O'Kennedy
 email: okenneds@tcd.ie
 description: > # this means to ignore newlines until "baseurl:"
-  Some say "I'm a visionary" or "a person ahead of his time". Others
-  ,quite rightly, call me a jackass.
+  Software Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stephenokennedy.me" # the base hostname & protocol for your site
-enforce_ssl: stephenokennedy.me
 twitter_username: stephenoken
 github_username:  stephenoken
 
 # Build settings
 markdown: kramdown
+
+gem:
+  - jekyll-sitemap
