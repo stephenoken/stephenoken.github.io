@@ -2,32 +2,53 @@
 layout: default
 ---
 
-<div class="home mdl-grid">
-  <div class="mdl-cell mdl-cell--12-col mdl-cell--middle minor-card mdl-cell--stretch">
-    <!-- <div class="mdl-card__supporting-text"> -->
-      <div class="mdl-textfield mdl-js-textfield primary-colour-text">
-        <input class="mdl-textfield__input element" type="text" id="sample3">
-      </div>
-    <!-- </div> -->
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col mdl-cell--middle minor-card mdl-shadow--4dp ">
+    <div class="mdl-textfield mdl-js-textfield primary-colour-text">
+      <input class="mdl-textfield__input element" type="text" id="sample3">
+    </div>
   </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" charset="utf-8"></script>
-  <script>
-    $(function(){
-        $(".element").typed({
-            strings: [
-              "Hello, I'm a software developer",
-              "I like to learn and use new technologies",
-              "I'm currently learning swift and haskell",
-              "and studying how machine learning works",
-              "in particular non-monotonic reasoning.",
-              "I'm also an avide runner!",
-              "I compete in both road and XC races",
-              "and occasionally do track races.",
-              "Did I mention I enjoy to develop software?!"
-            ],
-            typeSpeed: 0
-        });
-    });
-  </script>
 </div>
+<div class="about-section mdl-grid">
+  <h4 class="sub-title mdl-cell--12-col">Recent Projects</h4>
+  <div class="mdl-cell mdl-card mdl-shadow--8dp mdl-cell--6-col-tablet mdl-cell--6-col mdl-cell--12-col-phone">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Gulp Remove HTML</h2>
+    </div>
+    <img class="gulp-image" src="{{ "/images/gulp.png" | prepend: site.baseurl }}" alt="" />
+    <div class="mdl-card__supporting-text">
+      A plugin for gulp that removes HTML code when the files go into production.
+    </div>
+  </div>
+  <div class="mdl-cell mdl-card mdl-shadow--8dp mdl-cell--6-col-tablet mdl-cell--6-col mdl-cell--12-col-phone">
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">Organisr</h2>
+    </div>
+    <img class="card-images" src="{{ "/images/Organisr-Logo.png" | prepend: site.baseurl }}" alt="" />
+    <div class="mdl-card__supporting-text">
+      <p>
+        Organisr is a web application build using the MEAN stack. It's idea was to target Admins of Facebook Groups for Amature Sports Clubs. It allows users to login via Facebook using the Facebbok Graph API and let's them create a Training session, which is then posted to the Facebook group page.
+      </p>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" charset="utf-8"></script>
+<script>
+  $(function(){
+      $(".element").typed({
+          strings: [
+            "Hello, I'm a software developer",
+            "I like to learn and use new technologies",
+            "I'm currently learning swift and haskell",
+            "and studying how machine learning works",
+            "in particular non-monotonic reasoning.",
+            "I'm also an avide runner!",
+            "I compete in both road and XC races",
+            "and occasionally do track races.",
+            "Did I mention I enjoy to develop software?!"
+          ],
+          typeSpeed: 0
+      });
+  });
+</script>

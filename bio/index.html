@@ -1,20 +1,22 @@
 ---
 layout: default
-title: Me
-permalink: /me/
+title: Contact/CV
+permalink: /Contact/
 ---
 
 <div class="about-section">
   <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--4-col mdl-cell--12-col-phone mdl-card mdl-shadow--8dp mdl-cards-primary">
+    <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--8dp mdl-cards-primary">
       <img  class="profile-img" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAANuAAAAJGU0OTA4MjA0LTg0NDItNDBiYS05MjRiLTFjMTM4OTFmZTYyNA.jpg" alt="Stephen O'Kennedy" />
     </div>
-    <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-phone mdl-card mdl-shadow--8dp">
+    <div class="mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet mdl-cell--12-col-phone mdl-card mdl-shadow--8dp">
       <div class="mdl-card__supporting-text">
         <p><h3>Stephen O'Kennedy</h3></p>
         <span><a href="mailto:okenneds@tcd.ie"><i class="material-icons icon">mail_outline</i>okenneds@tcd.ie</a></span><br>
         <span><a href="tel:+353851410017"><i class="material-icons icon">phone</i>353851410017</a></span><br>
-        <span><i class="material-icons icon">map</i>Dublin, Ireland</span><br><br>
+        <span><i class="material-icons icon">map</i>Dublin, Ireland</span><br>
+        {% include icon-github.html username=site.github_username %}
+        {% include icon-twitter.html username=site.twitter_username %}<br>
         <p>
           Currently studying for a MSc. in Networks and Distributed Systems in TCD.
           My dissertaion focuses on distributing non-monotonic reasoning agents.
@@ -25,7 +27,7 @@ permalink: /me/
     </div>
   </div>
   <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--6-col">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
       <h4 class="sub-title">Knowledge</h4>
       <ul class="mdl-list">
         <li class="mdl-list__item">
@@ -71,7 +73,7 @@ permalink: /me/
       <span class="skill">Databases (MongoDB, MySQL, SQLite)</span>
       <input class="mdl-slider mdl-js-slider" type="range" id="s1" min="0" max="10" value="7" step="2">
     </div>
-    <div class="mdl-cell mdl-cell--6-col">
+    <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
       <div class=" mdl-cell--12-col">
         <h4 class="sub-title">Work Experience</h4>
         <div class="minor-card mdl-shadow--6dp">
@@ -104,7 +106,7 @@ permalink: /me/
           </div>
         </div>
       </div>
-      <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--8dp">
+      <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
         <h4 class="sub-title">Knowledge</h4>
         <div class="mdl-card__supporting-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

@@ -30,3 +30,14 @@
 //     right: 0;
 //   }
 // }
+.card-images{
+  width:250px;
+  padding: 20px;
+  align-self: center;
+}
+
+.gulp-image{
+  @extend .card-images;
+  width: 125px;
+  height:250px;
+}
