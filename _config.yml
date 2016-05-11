@@ -9,10 +9,10 @@
 title: Stephen O'Kennedy
 email: okenneds@tcd.ie
 description: > # this means to ignore newlines until "baseurl:"
-  Software Developer.
+  Software Developer. Blogs about technology and all that Jazz
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stephenokennedy.me" # the base hostname & protocol for your site
-twitter_username: stephenoken
+twitter_username: s_o_kennedy
 github_username:  stephenoken
 
 # Build settings

@@ -2,22 +2,32 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="home mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col mdl-cell--middle minor-card mdl-cell--stretch">
+    <!-- <div class="mdl-card__supporting-text"> -->
+      <div class="mdl-textfield mdl-js-textfield primary-colour-text">
+        <input class="mdl-textfield__input element" type="text" id="sample3">
+      </div>
+    <!-- </div> -->
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js" charset="utf-8"></script>
+  <script>
+    $(function(){
+        $(".element").typed({
+            strings: [
+              "Hello, I'm a software developer",
+              "I like to learn and use new technologies",
+              "I'm currently learning swift and haskell",
+              "and studying how machine learning works",
+              "in particular non-monotonic reasoning.",
+              "I'm also an avide runner!",
+              "I compete in both road and XC races",
+              "and occasionally do track races.",
+              "Did I mention I enjoy to develop software?!"
+            ],
+            typeSpeed: 0
+        });
+    });
+  </script>
 </div>
