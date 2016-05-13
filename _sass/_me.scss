@@ -66,3 +66,12 @@
 .skill{
   margin: 0 25px;
 }
+
+.contact{
+  a{
+    color: rgba(0,0,0,.54);
+    &:visited{
+      color:rgba(0,0,0,.54);
+    }
+  }
+}
