@@ -2,9 +2,9 @@
 layout: post
 title:  "Why Functional Programming Is Awesome"
 date:   2016-05-23 14:26:24 +0100
-categories: functional programming, javascript
+categories: functional programming javascript
 description: "Learn the fundamentals of functional programming with javascript"
-image: "images/why-functional-programming-rocks/title.jpg"
+image: "images/why-functional-programming-is-awesome/title.jpg"
 ---
 
 
