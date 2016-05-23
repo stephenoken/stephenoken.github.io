@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Why Functional Programming Is Awesome"
-date:   2016-05-23 14:26:24 +0100
+title:  "Using Functional Programming In Javascript"
+date:   2016-05-22 14:26:24 +0100
 categories: functional programming javascript
 description: "Learn the fundamentals of functional programming with javascript"
-image: "images/why-functional-programming-is-awesome/title.jpg"
+image: "images/using-functional-programming-in-javascript/title.jpg"
 ---
 
 
@@ -18,8 +18,6 @@ Then I read some articles on how writing you code more "functionally" and it mad
 A lot of languages seem to be embracing the functional paradigm like Java and Javascript. For example in 2015 making variables read only was implemented in Javascript, which is a big part of the functional paradigm.  Furthermore functional languages like Scala are increasingly being used in industry. So at the very least it's a good idea to have a basic idea of functional programming.
 
 This post will explain some of the ways you can write your code more "functionally" with code snippets in Javascript.
-
-**Please note that this post focuses more on the list comprehension side of functional programming**
 
 Before we continue any further I want to lay some ground rules that I personally found useful for writing my code more functionally.
 
